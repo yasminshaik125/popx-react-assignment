@@ -1,16 +1,142 @@
-# React + Vite
+# PopX React Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+This project is developed using **React.js**, a popular JavaScript library for building modern and interactive user interfaces. React follows a component-based architecture, allowing developers to create reusable UI components and build scalable web applications efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+In this project, React.js was used to create multiple screens including Landing, Login, Signup, and Profile pages while maintaining a clean and organized code structure. React Router DOM was implemented for seamless navigation between pages without page reloads, providing a smooth user experience.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## React Concepts Implemented
 
-## Expanding the ESLint configuration
+- Functional Components
+- JSX
+- Component Reusability
+- React Router Navigation
+- Event Handling
+- Form Inputs
+- Responsive UI Design
+- Project Structure Organization
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+### Landing Page
+- Welcome screen
+- Create Account button
+- Login button
+
+### Login Page
+- Email input field
+- Password input field
+- Login button
+
+### Signup Page
+- Full Name field
+- Phone Number field
+- Email Address field
+- Password field
+- Company Name field
+- Agency selection using radio buttons
+- Create Account button
+
+### Profile Page
+- User profile information
+- Profile image
+- Account settings section
+- Mobile app styled layout
+
+---
+
+## Project Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── Button.jsx
+│   └── Input.jsx
+│
+├── pages/
+│   ├── Landing.jsx
+│   ├── Login.jsx
+│   ├── Signup.jsx
+│   └── Profile.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yasminshaik125/popx-react-assignment.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd popx-react-assignment
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Deployment
+
+The project is deployed using Vercel.
+
+Deployment URL:
+
+https://popx-react-assignment-one.vercel.app
+
+---
+
+## Assignment Requirements Covered
+
+- React.js Implementation
+- Multiple Page Navigation
+- Reusable Components
+- Responsive Mobile UI
+- Form Design
+- Profile Screen
+- CSS Styling
+- GitHub Repository Management
+- Live Deployment
+
+---
+
+The user interface was designed using **CSS3** to closely match the provided PopX design. The project was built and managed using **Vite**, which offers faster development, hot module replacement, and optimized production builds.
+
+The application demonstrates important React concepts such as:
+
+- Functional Components
+- JSX (JavaScript XML)
+- Component Reusability
+- React Router Navigation
+- Event Handling
+- Form Management
+- Responsive UI Design
+- Project Structure Organization
+
+Through this project, I gained practical experience in developing modern frontend applications using React.js, managing project structure, implementing routing, styling user interfaces, and deploying applications using Vercel.
+
+This project highlights my understanding of React.js fundamentals and my ability to convert UI designs into fully functional web applications using modern frontend development tools and best practices.
