@@ -1,0 +1,189 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background:#f5f5f5;
+}
+
+.mobile-container{
+  width:375px;
+  min-height:812px;
+  background:white;
+  margin:20px auto;
+  border:1px solid #e5e5e5;
+}
+
+.page{
+  padding:24px;
+}
+
+.title{
+  font-size:32px;
+  font-weight:700;
+  color:#1d1d1f;
+}
+
+.subtitle{
+  margin-top:10px;
+  color:#777;
+  line-height:1.5;
+}
+
+.btn-primary{
+  width:100%;
+  border:none;
+  background:#6c25ff;
+  color:white;
+  padding:14px;
+  border-radius:8px;
+  margin-top:20px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.btn-secondary{
+  width:100%;
+  border:none;
+  background:#cebafb;
+  color:black;
+  padding:14px;
+  border-radius:8px;
+  margin-top:10px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.input-group{
+  margin-top:18px;
+}
+
+.input-group label{
+  display:block;
+  color:#6c25ff;
+  font-size:12px;
+  margin-bottom:5px;
+}
+
+.input-group input{
+  width:100%;
+  padding:12px;
+  border:1px solid #ddd;
+  border-radius:6px;
+}
+
+.gray-btn{
+  width:100%;
+  border:none;
+  background:#cccccc;
+  color:white;
+  padding:14px;
+  border-radius:8px;
+  margin-top:20px;
+}
+
+.profile-header{
+  background:#f5f5f5;
+  padding:15px;
+  font-weight:600;
+}
+
+.profile-info{
+  padding:20px;
+  display:flex;
+  gap:15px;
+}
+
+.avatar{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  background:#ccc;
+}
+
+.profile-text{
+  flex:1;
+}
+
+.profile-desc{
+  padding:0 20px 20px;
+  color:#444;
+  line-height:1.5;
+}
+.mobile-container {
+  width: 375px;
+  min-height: 812px;
+  margin: auto;
+  background: #f7f8f9;
+  border: 1px solid #e5e5e5;
+}
+
+.profile-page {
+  min-height: 812px;
+  background: #f7f8f9;
+}
+
+.profile-header {
+  background: white;
+  padding: 24px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.profile-card {
+  background: #f7f8f9;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 25px;
+}
+
+.profile-image {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.camera-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  background: #6c25ff;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.profile-text h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.profile-text p {
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.profile-desc {
+  padding: 0 25px 20px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #1d2226;
+}
+
+.profile-divider {
+  border-top: 2px dashed #d6d6d6;
+}
